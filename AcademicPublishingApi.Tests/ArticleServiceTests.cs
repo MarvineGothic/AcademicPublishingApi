@@ -8,7 +8,7 @@ namespace AcademicPublishingApi.Tests;
 public class ArticleServiceTests
 {
     private readonly AppDbContext _dbContext;
-    private readonly ResearchArticleService _article_service;
+    private readonly ResearchArticleRepository _article_service;
 
     public ArticleServiceTests()
     {
@@ -36,7 +36,7 @@ public class ArticleServiceTests
 
         _dbContext.SaveChanges();
 
-        _article_service = new ResearchArticleService(_dbContext);
+        _article_service = new ResearchArticleRepository(_dbContext);
     }
 
     [Fact]

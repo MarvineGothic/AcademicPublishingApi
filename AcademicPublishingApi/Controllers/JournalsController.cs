@@ -7,9 +7,9 @@ namespace AcademicPublishingApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JournalsController(IResearchArticleService researchArticleService) : ControllerBase
+    public class JournalsController(IResearchArticleRepository researchArticleService) : ControllerBase
     {
-        private readonly IResearchArticleService _researchArticleService = researchArticleService;
+        private readonly IResearchArticleRepository _researchArticleService = researchArticleService;
 
         // GET: api/<JournalsController>/4/articles
         [HttpGet("{journalId:int}/articles")]

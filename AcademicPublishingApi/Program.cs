@@ -15,7 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IResearchArticleService, ResearchArticleService>();
+builder.Services.AddScoped<IResearchArticleRepository, ResearchArticleRepository>();
 
 var app = builder.Build();
 
