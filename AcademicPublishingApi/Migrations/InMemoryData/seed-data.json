@@ -1,0 +1,520 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "affiliation": "MIT"
+    },
+    {
+      "id": 2,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "affiliation": "Stanford"
+    },
+    {
+      "id": 3,
+      "firstName": "Carol",
+      "lastName": "Davis",
+      "affiliation": "Harvard"
+    },
+    {
+      "id": 4,
+      "firstName": "David",
+      "lastName": "Wilson",
+      "affiliation": "Oxford"
+    },
+    {
+      "id": 5,
+      "firstName": "Eva",
+      "lastName": "Taylor",
+      "affiliation": "Cambridge"
+    },
+    {
+      "id": 6,
+      "firstName": "Frank",
+      "lastName": "Anderson",
+      "affiliation": "Berkeley"
+    },
+    {
+      "id": 7,
+      "firstName": "Grace",
+      "lastName": "Moore",
+      "affiliation": "ETH Zurich"
+    },
+    {
+      "id": 8,
+      "firstName": "Hank",
+      "lastName": "Thomas",
+      "affiliation": "EPFL"
+    },
+    {
+      "id": 9,
+      "firstName": "Irene",
+      "lastName": "Martin",
+      "affiliation": "Tokyo University"
+    },
+    {
+      "id": 10,
+      "firstName": "Jack",
+      "lastName": "White",
+      "affiliation": "NTU Singapore"
+    },
+    {
+      "id": 11,
+      "firstName": "Karen",
+      "lastName": "Hall",
+      "affiliation": "UCLA"
+    },
+    {
+      "id": 12,
+      "firstName": "Leo",
+      "lastName": "Young",
+      "affiliation": "Toronto"
+    },
+    {
+      "id": 13,
+      "firstName": "Mia",
+      "lastName": "King",
+      "affiliation": "TUM"
+    },
+    {
+      "id": 14,
+      "firstName": "Nick",
+      "lastName": "Wright",
+      "affiliation": "Seoul University"
+    },
+    {
+      "id": 15,
+      "firstName": "Olivia",
+      "lastName": "Scott",
+      "affiliation": "Sydney University"
+    }
+  ],
+  "journals": [
+    {
+      "id": 1,
+      "name": "AI Journal",
+      "issn": "0001-0001",
+      "publisher": "TechPress"
+    },
+    {
+      "id": 2,
+      "name": "ML Insights",
+      "issn": "0002-0002",
+      "publisher": "SciLearn"
+    },
+    {
+      "id": 3,
+      "name": "Data Science Today",
+      "issn": "0003-0003",
+      "publisher": "DeepData"
+    },
+    {
+      "id": 4,
+      "name": "Cognitive Computing",
+      "issn": "0004-0004",
+      "publisher": "ThinkLab"
+    },
+    {
+      "id": 5,
+      "name": "Robotics Monthly",
+      "issn": "0005-0005",
+      "publisher": "FutureBots"
+    }
+  ],
+  "researchArticles": [
+    {
+      "id": 1,
+      "title": "AI in Healthcare",
+      "abstract": "Applications of AI in medicine.",
+      "publicationDate": "2024-05-01",
+      "journalId": 1
+    },
+    {
+      "id": 2,
+      "title": "Deep Learning Advances",
+      "abstract": "Latest trends in DL.",
+      "publicationDate": "2024-05-02",
+      "journalId": 2
+    },
+    {
+      "id": 3,
+      "title": "Ethics in AI",
+      "abstract": "Moral questions in AI use.",
+      "publicationDate": "2024-05-03",
+      "journalId": 1
+    },
+    {
+      "id": 4,
+      "title": "Autonomous Vehicles",
+      "abstract": "ML for self-driving cars.",
+      "publicationDate": "2024-05-04",
+      "journalId": 5
+    },
+    {
+      "id": 5,
+      "title": "Smart Cities",
+      "abstract": "Data science for urban planning.",
+      "publicationDate": "2024-05-05",
+      "journalId": 3
+    },
+    {
+      "id": 6,
+      "title": "Quantum Computing 101",
+      "abstract": "Basics of quantum systems.",
+      "publicationDate": "2024-05-06",
+      "journalId": 4
+    },
+    {
+      "id": 7,
+      "title": "NLP for Translation",
+      "abstract": "Neural translation models.",
+      "publicationDate": "2024-05-07",
+      "journalId": 2
+    },
+    {
+      "id": 8,
+      "title": "Reinforcement Learning Agents",
+      "abstract": "Design of RL models.",
+      "publicationDate": "2024-05-08",
+      "journalId": 1
+    },
+    {
+      "id": 9,
+      "title": "Facial Recognition Tech",
+      "abstract": "Privacy and surveillance.",
+      "publicationDate": "2024-05-09",
+      "journalId": 4
+    },
+    {
+      "id": 10,
+      "title": "Chatbot Design",
+      "abstract": "Conversational agents.",
+      "publicationDate": "2024-05-10",
+      "journalId": 2
+    },
+    {
+      "id": 11,
+      "title": "AI in Education",
+      "abstract": "Adaptive learning systems.",
+      "publicationDate": "2024-05-11",
+      "journalId": 3
+    },
+    {
+      "id": 12,
+      "title": "Cybersecurity & AI",
+      "abstract": "ML for threat detection.",
+      "publicationDate": "2024-05-12",
+      "journalId": 5
+    },
+    {
+      "id": 13,
+      "title": "Vision Transformers",
+      "abstract": "Advances in computer vision.",
+      "publicationDate": "2024-05-13",
+      "journalId": 2
+    },
+    {
+      "id": 14,
+      "title": "Bias in Machine Learning",
+      "abstract": "Fairness and ethics.",
+      "publicationDate": "2024-05-14",
+      "journalId": 1
+    },
+    {
+      "id": 15,
+      "title": "IoT Data Processing",
+      "abstract": "ML at the edge.",
+      "publicationDate": "2024-05-15",
+      "journalId": 3
+    },
+    {
+      "id": 16,
+      "title": "Robotics and Sensors",
+      "abstract": "Sensor fusion for robots.",
+      "publicationDate": "2024-05-16",
+      "journalId": 5
+    },
+    {
+      "id": 17,
+      "title": "AI for Finance",
+      "abstract": "Forecasting and fraud detection.",
+      "publicationDate": "2024-05-17",
+      "journalId": 3
+    },
+    {
+      "id": 18,
+      "title": "Augmented Reality Interfaces",
+      "abstract": "Human-computer interaction.",
+      "publicationDate": "2024-05-18",
+      "journalId": 4
+    },
+    {
+      "id": 19,
+      "title": "Predictive Maintenance",
+      "abstract": "Industrial use cases.",
+      "publicationDate": "2024-05-19",
+      "journalId": 3
+    },
+    {
+      "id": 20,
+      "title": "Synthetic Data Generation",
+      "abstract": "Improving ML training.",
+      "publicationDate": "2024-05-20",
+      "journalId": 2
+    },
+    {
+      "id": 21,
+      "title": "AI for Wildlife Conservation",
+      "abstract": "Tracking and monitoring.",
+      "publicationDate": "2024-05-21",
+      "journalId": 1
+    },
+    {
+      "id": 22,
+      "title": "Natural Language Generation",
+      "abstract": "Text synthesis models.",
+      "publicationDate": "2024-05-22",
+      "journalId": 2
+    },
+    {
+      "id": 23,
+      "title": "Data Privacy Engineering",
+      "abstract": "Privacy-preserving AI.",
+      "publicationDate": "2024-05-23",
+      "journalId": 3
+    },
+    {
+      "id": 24,
+      "title": "Multi-Agent Systems",
+      "abstract": "Collaborative AI agents.",
+      "publicationDate": "2024-05-24",
+      "journalId": 4
+    },
+    {
+      "id": 25,
+      "title": "AI for Language Learning",
+      "abstract": "Speech recognition and grammar.",
+      "publicationDate": "2024-05-25",
+      "journalId": 1
+    },
+    {
+      "id": 26,
+      "title": "Generative Art",
+      "abstract": "AI creativity.",
+      "publicationDate": "2024-05-26",
+      "journalId": 2
+    },
+    {
+      "id": 27,
+      "title": "Explainable AI",
+      "abstract": "Transparency in ML.",
+      "publicationDate": "2024-05-27",
+      "journalId": 4
+    },
+    {
+      "id": 28,
+      "title": "Edge AI Hardware",
+      "abstract": "Embedded AI systems.",
+      "publicationDate": "2024-05-28",
+      "journalId": 5
+    },
+    {
+      "id": 29,
+      "title": "Swarm Robotics",
+      "abstract": "Distributed robotic systems.",
+      "publicationDate": "2024-05-29",
+      "journalId": 5
+    },
+    {
+      "id": 30,
+      "title": "Emotion Recognition AI",
+      "abstract": "Affective computing.",
+      "publicationDate": "2024-05-30",
+      "journalId": 4
+    }
+  ],
+  "articleAuthors": [
+    {
+      "authorId": 1,
+      "researchArticleId": 1
+    },
+    {
+      "authorId": 2,
+      "researchArticleId": 1
+    },
+    {
+      "authorId": 3,
+      "researchArticleId": 2
+    },
+    {
+      "authorId": 4,
+      "researchArticleId": 3
+    },
+    {
+      "authorId": 5,
+      "researchArticleId": 4
+    },
+    {
+      "authorId": 6,
+      "researchArticleId": 5
+    },
+    {
+      "authorId": 7,
+      "researchArticleId": 6
+    },
+    {
+      "authorId": 8,
+      "researchArticleId": 7
+    },
+    {
+      "authorId": 9,
+      "researchArticleId": 8
+    },
+    {
+      "authorId": 10,
+      "researchArticleId": 9
+    },
+    {
+      "authorId": 11,
+      "researchArticleId": 10
+    },
+    {
+      "authorId": 12,
+      "researchArticleId": 11
+    },
+    {
+      "authorId": 13,
+      "researchArticleId": 12
+    },
+    {
+      "authorId": 14,
+      "researchArticleId": 13
+    },
+    {
+      "authorId": 15,
+      "researchArticleId": 14
+    },
+    {
+      "authorId": 1,
+      "researchArticleId": 15
+    },
+    {
+      "authorId": 2,
+      "researchArticleId": 16
+    },
+    {
+      "authorId": 3,
+      "researchArticleId": 17
+    },
+    {
+      "authorId": 4,
+      "researchArticleId": 18
+    },
+    {
+      "authorId": 5,
+      "researchArticleId": 19
+    },
+    {
+      "authorId": 6,
+      "researchArticleId": 20
+    },
+    {
+      "authorId": 7,
+      "researchArticleId": 21
+    },
+    {
+      "authorId": 8,
+      "researchArticleId": 22
+    },
+    {
+      "authorId": 9,
+      "researchArticleId": 23
+    },
+    {
+      "authorId": 10,
+      "researchArticleId": 24
+    },
+    {
+      "authorId": 11,
+      "researchArticleId": 25
+    },
+    {
+      "authorId": 12,
+      "researchArticleId": 26
+    },
+    {
+      "authorId": 13,
+      "researchArticleId": 27
+    },
+    {
+      "authorId": 14,
+      "researchArticleId": 28
+    },
+    {
+      "authorId": 15,
+      "researchArticleId": 29
+    },
+    {
+      "authorId": 1,
+      "researchArticleId": 30
+    },
+    {
+      "authorId": 2,
+      "researchArticleId": 3
+    },
+    {
+      "authorId": 3,
+      "researchArticleId": 7
+    },
+    {
+      "authorId": 4,
+      "researchArticleId": 9
+    },
+    {
+      "authorId": 5,
+      "researchArticleId": 10
+    },
+    {
+      "authorId": 6,
+      "researchArticleId": 12
+    },
+    {
+      "authorId": 7,
+      "researchArticleId": 14
+    },
+    {
+      "authorId": 8,
+      "researchArticleId": 16
+    },
+    {
+      "authorId": 9,
+      "researchArticleId": 18
+    },
+    {
+      "authorId": 10,
+      "researchArticleId": 19
+    },
+    {
+      "authorId": 11,
+      "researchArticleId": 21
+    },
+    {
+      "authorId": 12,
+      "researchArticleId": 22
+    },
+    {
+      "authorId": 13,
+      "researchArticleId": 24
+    },
+    {
+      "authorId": 14,
+      "researchArticleId": 26
+    },
+    {
+      "authorId": 15,
+      "researchArticleId": 28
+    }
+  ]
+}
