@@ -2,7 +2,7 @@
 
 namespace AcademicPublishingApi.Services
 {
-    public interface IResearchArticleService
+    public interface IResearchArticleRepository
     {
         Task<ResearchArticleDto?> GetResearchArticleById(int id);
 

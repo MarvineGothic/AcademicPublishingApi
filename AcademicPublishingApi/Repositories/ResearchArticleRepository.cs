@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AcademicPublishingApi.Services
 {
-    public class ResearchArticleService(AppDbContext appDbContext) : IResearchArticleService
+    public class ResearchArticleRepository(AppDbContext appDbContext) : IResearchArticleRepository
     {
         private readonly AppDbContext _appDbContext = appDbContext;
 
