@@ -1,12 +1,11 @@
 using AcademicPublishingApi.Data;
-using AcademicPublishingApi.Migrations.InMemoryData;
+using AcademicPublishingApi.Data.Migrations.InMemoryData;
 using AcademicPublishingApi.Services;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure the in-memory database.
-builder.Services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("AcademicD"));
+builder.Services.AddAppDbContext("AcademicDb");
 
 // Add services to the container.
 
@@ -25,7 +24,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 
-    app.SeedInMemoryData();
+    await app.SeedInMemoryData();
 }
 
 app.UseHttpsRedirection();

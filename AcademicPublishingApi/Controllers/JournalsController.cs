@@ -7,9 +7,9 @@ namespace AcademicPublishingApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JournalsController(IResearchArticleRepository researchArticleService) : ControllerBase
+    public class JournalsController(IResearchArticleRepository researchArticleRepository) : ControllerBase
     {
-        private readonly IResearchArticleRepository _researchArticleService = researchArticleService;
+        private readonly IResearchArticleRepository _researchArticleRepository = researchArticleRepository;
 
         // GET: api/<JournalsController>/4/articles
         [HttpGet("{journalId:int}/articles")]
@@ -17,7 +17,7 @@ namespace AcademicPublishingApi.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<ResearchArticleDto>>> GetArticlesByJournalAsync([FromRoute] int journalId)
         {
-            return Ok(await _researchArticleService.GetArticlesByJournalId(journalId));
+            return Ok(await _researchArticleRepository.GetArticlesByJournalId(journalId));
         }
     }
 }
