@@ -7,9 +7,9 @@ namespace AcademicPublishingApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ResearchArticlesController(IResearchArticleRepository researchArticleService) : ControllerBase
+    public class ResearchArticlesController(IResearchArticleRepository researchArticleRepository) : ControllerBase
     {
-        private readonly IResearchArticleRepository _researchArticleService = researchArticleService;
+        private readonly IResearchArticleRepository _researchArticleRepository = researchArticleRepository;
 
         // GET article by ID
         [HttpGet("{id:int}")]
@@ -18,7 +18,7 @@ namespace AcademicPublishingApi.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<ResearchArticleDto>> GetArticle([FromRoute] int id)
         {
-            var article = await _researchArticleService.GetResearchArticleById(id);
+            var article = await _researchArticleRepository.GetResearchArticleById(id);
             if (article == null)
             {
                 return NotFound();

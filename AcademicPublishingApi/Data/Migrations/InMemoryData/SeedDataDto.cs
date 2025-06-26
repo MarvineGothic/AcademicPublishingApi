@@ -1,6 +1,6 @@
 ﻿using AcademicPublishingApi.Data.Entities;
 
-namespace AcademicPublishingApi.Migrations.InMemoryData
+namespace AcademicPublishingApi.Data.Migrations.InMemoryData
 {
     public class SeedDataDto
     {
